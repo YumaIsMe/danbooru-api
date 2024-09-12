@@ -5,10 +5,7 @@ sphinx:
 
 python:
   install:
-    - pip install sphinx
-    - pip install sphinx-rtd-theme
-
-
+    - requirements: docs/requirements.txt
 
 build:
   os: ubuntu-22.04
