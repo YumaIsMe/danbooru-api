@@ -1,3 +1,8 @@
-__pycache__/
+# Ignore the build directory for Sphinx
+docs/build/
+# Ignore Python bytecode files
 *.pyc
-.env
+__pycache__/
+
+# Ignore virtual environment
+venv/

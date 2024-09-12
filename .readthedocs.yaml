@@ -3,7 +3,6 @@ version: 2
 sphinx:
   configuration: docs/source/conf.py
 
-
 python:
   install:
     - pip install sphinx
