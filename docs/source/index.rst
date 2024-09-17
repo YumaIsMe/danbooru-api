@@ -28,7 +28,7 @@ Here’s how you can use the Danbooru API Wrapper:
 
     .. code-block:: python
 
-        from danbooru_api import Danbooru
+        from danbooru.danbooru import Danbooru
 
         # Initialize the Danbooru API client
         api = Danbooru(username='your_username', api_key='your_api_key')
